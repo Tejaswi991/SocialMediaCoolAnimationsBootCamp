@@ -41,14 +41,10 @@ struct YoutubeSubscribeButtonAnimationss: View {
                     .font(.title2)
                     .fontWeight(.bold)
             }
-                              else{}
+                              else{
+                                  Text("Subscribe")
+                              }
             
-            if subscribedOrNot {
-                withAnimation(.easeInOut(duration:0.1)) {
-                    Image(systemName:"chevron.down")
-                }
-              
-            }
             
         }
        
