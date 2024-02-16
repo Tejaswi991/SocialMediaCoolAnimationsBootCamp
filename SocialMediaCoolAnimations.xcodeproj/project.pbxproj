@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CA70432B7F0E0E00D4A414 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA70422B7F0E0E00D4A414 /* PracticeView.swift */; };
+		29CA70452B7F22FE00D4A414 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA70442B7F22FE00D4A414 /* Animation.swift */; };
 		29D2C26C2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2C26B2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift */; };
 		29D2C26E2B7DE31200E186B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2C26D2B7DE31200E186B5 /* ContentView.swift */; };
 		29D2C2702B7DE31300E186B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2C26F2B7DE31300E186B5 /* Assets.xcassets */; };
 		29D2C2732B7DE31300E186B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2C2722B7DE31300E186B5 /* Preview Assets.xcassets */; };
+		29D2C27A2B7DE37600E186B5 /* YoutubeSubscribeButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2C2792B7DE37600E186B5 /* YoutubeSubscribeButtonAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29CA70422B7F0E0E00D4A414 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		29CA70442B7F22FE00D4A414 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		29D2C2682B7DE31200E186B5 /* SocialMediaCoolAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaCoolAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D2C26B2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaCoolAnimationsApp.swift; sourceTree = "<group>"; };
 		29D2C26D2B7DE31200E186B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29D2C26F2B7DE31300E186B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29D2C2722B7DE31300E186B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29D2C2792B7DE37600E186B5 /* YoutubeSubscribeButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSubscribeButtonAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,10 @@
 			children = (
 				29D2C26B2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift */,
 				29D2C26D2B7DE31200E186B5 /* ContentView.swift */,
+				29D2C27B2B7DE37E00E186B5 /* Youtube */,
 				29D2C26F2B7DE31300E186B5 /* Assets.xcassets */,
 				29D2C2712B7DE31300E186B5 /* Preview Content */,
+				29CA70422B7F0E0E00D4A414 /* PracticeView.swift */,
 			);
 			path = SocialMediaCoolAnimations;
 			sourceTree = "<group>";
@@ -65,6 +73,15 @@
 				29D2C2722B7DE31300E186B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29D2C27B2B7DE37E00E186B5 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				29D2C2792B7DE37600E186B5 /* YoutubeSubscribeButtonAnimation.swift */,
+				29CA70442B7F22FE00D4A414 /* Animation.swift */,
+			);
+			path = Youtube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +156,9 @@
 			files = (
 				29D2C26E2B7DE31200E186B5 /* ContentView.swift in Sources */,
 				29D2C26C2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift in Sources */,
+				29D2C27A2B7DE37600E186B5 /* YoutubeSubscribeButtonAnimation.swift in Sources */,
+				29CA70452B7F22FE00D4A414 /* Animation.swift in Sources */,
+				29CA70432B7F0E0E00D4A414 /* PracticeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,8 @@ import SwiftUI
 struct SocialMediaCoolAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            YoutubeSubscribeButtonAnimation()
+                .preferredColorScheme(.dark)
         }
     }
 }
