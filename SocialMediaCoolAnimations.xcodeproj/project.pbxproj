@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		29CA70432B7F0E0E00D4A414 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA70422B7F0E0E00D4A414 /* PracticeView.swift */; };
 		29CA70452B7F22FE00D4A414 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA70442B7F22FE00D4A414 /* Animation.swift */; };
+		29CA70712B7F8B6700D4A414 /* SkipAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA70702B7F8B6700D4A414 /* SkipAdd.swift */; };
 		29D2C26C2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2C26B2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift */; };
 		29D2C26E2B7DE31200E186B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2C26D2B7DE31200E186B5 /* ContentView.swift */; };
 		29D2C2702B7DE31300E186B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2C26F2B7DE31300E186B5 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		29CA70422B7F0E0E00D4A414 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		29CA70442B7F22FE00D4A414 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		29CA70702B7F8B6700D4A414 /* SkipAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipAdd.swift; sourceTree = "<group>"; };
 		29D2C2682B7DE31200E186B5 /* SocialMediaCoolAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaCoolAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D2C26B2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaCoolAnimationsApp.swift; sourceTree = "<group>"; };
 		29D2C26D2B7DE31200E186B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				29D2C2792B7DE37600E186B5 /* YoutubeSubscribeButtonAnimation.swift */,
 				29CA70442B7F22FE00D4A414 /* Animation.swift */,
+				29CA70702B7F8B6700D4A414 /* SkipAdd.swift */,
 			);
 			path = Youtube;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CA70712B7F8B6700D4A414 /* SkipAdd.swift in Sources */,
 				29D2C26E2B7DE31200E186B5 /* ContentView.swift in Sources */,
 				29D2C26C2B7DE31200E186B5 /* SocialMediaCoolAnimationsApp.swift in Sources */,
 				29D2C27A2B7DE37600E186B5 /* YoutubeSubscribeButtonAnimation.swift in Sources */,
