@@ -30,7 +30,7 @@ struct YoutubeSubscribeButtonAnimationss: View {
                           HStack(spacing:20){
             if subscribedOrNot {
                 withAnimation(.easeInOut(duration:0.1)) {
-                    Image(systemName:"bell") .font(.title)
+                    Image(systemName:"bell.fill") .font(.title)
                 }
                
                     
@@ -38,12 +38,13 @@ struct YoutubeSubscribeButtonAnimationss: View {
             
             if subscribedOrNot{
                 Text(subscribedText)
-                    .font(.title2)
-                    .fontWeight(.bold)
+                    .font(.title)
+                    .fontWeight(.heavy)
             }
                               else{
                                   Text("Subscribe")
                               }
+                             
             
             
         }
@@ -73,6 +74,7 @@ struct YoutubeSubscribeButtonAnimationss: View {
                 currentIndex += 1
             }
         })
+        Text("Hellooo")
     }
     
 }
