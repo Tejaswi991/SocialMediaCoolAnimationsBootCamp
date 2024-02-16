@@ -28,13 +28,6 @@ struct YoutubeSubscribeButtonAnimationss: View {
                           }
                       }        }, label: {
                           HStack(spacing:20){
-            if subscribedOrNot {
-                withAnimation(.easeInOut(duration:0.1)) {
-                    Image(systemName:"bell.fill") .font(.title)
-                }
-               
-                    
-            }
             
             if subscribedOrNot{
                 Text(subscribedText)
